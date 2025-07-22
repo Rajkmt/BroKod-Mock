@@ -20,35 +20,6 @@ BroKod Mock is a mock frontend app that demonstrates how to build a modern web i
 
 It’s a great project to learn from if you’re a **beginner who wants to understand how a real-world app is built**.
 
----
-
-## 📁 Folder Structure (Explained Simply)
-
-Here’s how the project is organized:
-
-BroKod-Mock/
-├── app/ ← All your pages and routes (Next.js App Router)
-│ ├── api/ ← Backend API routes (like a mini server)
-│ ├── layout.tsx ← Main layout (header, footer, etc.)
-│ └── page.tsx ← Home page
-│
-├── components/
-│ └── ui/ ← All reusable UI parts (buttons, cards, etc.)
-│
-├── lib/
-│ └── db.ts ← Database config using Drizzle ORM
-│
-├── public/ ← Static files (images, icons, etc.)
-│
-├── utils/ ← Helper functions and custom hooks
-│
-├── drizzle.config.js ← Drizzle ORM configuration file
-├── next.config.mjs ← Next.js configuration
-├── tailwind.config.js ← Tailwind CSS setup
-├── tsconfig.json ← TypeScript settings
-├── package.json ← List of all packages and scripts
-
-
 ## 🛠️ How to Run This Project (Step-by-Step)
 
 Even if you're new, follow these simple steps:
